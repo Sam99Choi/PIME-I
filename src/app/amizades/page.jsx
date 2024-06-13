@@ -90,7 +90,7 @@ export default function Amizades() {
                 width={60}
                 height={60}
               />
-              Leonardo{" "}
+              Leonardo Dos Santos{" "}
             </li>
           </ol>
         </div>
