@@ -1,7 +1,6 @@
 'use client'
 import Footer from "@/Components/Footer"
 import Header from "@/Components/Header"
-import Modal from "@/Components/Modal"
 import VideoComponent from "@/Components/VideoComponent";
 import { useEffect, useState } from "react";
 
@@ -68,7 +67,6 @@ export default function Alongamento() {
         } 
       </div>
 
-      <Modal isOpen={modal} />
       </div>
       
       <Footer/>

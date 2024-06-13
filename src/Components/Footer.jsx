@@ -11,13 +11,13 @@ export default function Footer() {
           <a href="/"> <IconHome/> </a>
         </li>
         <li>
-          <a href="#"><IconGroup/> </a>
+          <a href="/amizades"><IconGroup/> </a>
         </li>
         <li>
-          <a href="#"><IconPodium/></a>
+          <a href="/ranking"><IconPodium/></a>
         </li>
         <li       className="hover:fill-lime-500">
-          <a href="#"><IconProfile/></a>
+          <a href="/perfil"><IconProfile/></a>
         </li>
       </ul>
     </footer>
