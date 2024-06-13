@@ -1,5 +1,0 @@
-{
-  "https://www.mydomain.com/remote-video.mp4": { "resolved": "https://www.web.com/mydomain?brand=mydomain&channelID=P99C101S653N0B2A16D132E0000V147", "integrity": "sha512-aPX3Kh+XzxqiMqGGsQHP6r/qhdRi3q14jbKla7eTT/R0T6/SAXktj3JtPdPOq81CaU17J52Xypa5IiS3Q982bQ==", "contentType": "text/html;charset=utf-8" },
-  "https://www.youtube.com/watch?v=L93hyPiltLA.mp4": "no-cache",
-  "version": 1
-}
