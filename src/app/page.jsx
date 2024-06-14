@@ -1,26 +1,30 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 import Footer from "@/Components/Footer";
 import Header from "@/Components/Header";
-
 import Pages from "@/Components/Pages";
+import Image from "next/image";
+import IconGroup from "@/Components/FooterComponents/IconGroup";
+import IconPodium from "@/Components/FooterComponents/IconPodium";
+import IconProfile from "@/Components/FooterComponents/IconProfile";
+import IconHome from "@/Components/FooterComponents/IconHome";
+
 
 export default function Page() {
-  const videos = [
-    {
-      id: 1,
-      src: "/../video/videoteste.mp4",
-      width: 640,
-      height: 360,
-      controls: true,
-      autoplay: false,
-      loop: true,
-      muted: false,
-    },
-  ];
-
   return (
     <div className=" flex flex-col justify-center scroll-auto w-auto h-screen ">
-      <Header />
+      <header className="static shadow inset-x-0 top-0 flex items-center py-1 md:py-2 bg-lime-400 ">
+        <div className=" flex items-center w-full h-full gap-4 px-5 ">
+          <Image
+            className="border rounded-full max-h-20"
+            src="/profile.png"
+            alt="Descrição da imagem"
+            width={70}
+            height={70}
+          />
+          <p className="text-lg font-medium">@User_47</p>
+        </div>
+      </header>
 
       <div className="/bg-red-300 flex flex-col justify-center items-center h-full w-auto md:items-center mx-5  ">
         <div className="mb-10 flex flex-col items-center justify-center rounded-md  md:bg-gray-500 md:w-8/12 lg:w-6/12 xl:w-4/12 h-max pt-5 pb-5 ">
@@ -39,7 +43,31 @@ export default function Page() {
         </div>
       </div>
 
-      <Footer />
+      <footer className="fixed bottom-0 w-full h-12 bg-white ">
+        <ul className="flex w-full h-full justify-around items-center border shadow">
+          <li>
+            <a href="/">
+              {" "}
+              <IconHome />{" "}
+            </a>
+          </li>
+          <li>
+            <a href="/amizades">
+              <IconGroup />{" "}
+            </a>
+          </li>
+          <li>
+            <a href="/ranking">
+              <IconPodium />
+            </a>
+          </li>
+          <li className="hover:fill-lime-500">
+            <a href="/perfil">
+              <IconProfile />
+            </a>
+          </li>
+        </ul>
+      </footer>
     </div>
   );
 }
