@@ -5,7 +5,7 @@ import IconProfile from "./FooterComponents/IconProfile";
 
 export default function Footer() {
   return (
-    <footer className="fixed bottom-0 w-full h-12 bg-white ">
+    <footer className="fixed bottom-0 w-full h-12 bg-white">
       <ul className="flex w-full h-full justify-around items-center border shadow">
         <li >
           <a href="/"> <IconHome/> </a>

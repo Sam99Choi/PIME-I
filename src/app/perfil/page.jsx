@@ -7,8 +7,8 @@ export default function Perfil() {
     <div className=" flex flex-col scroll-auto w-auto h-screen ">
       <Header />
       <div className="flex flex-col items-center justify-center h-4/5 auto w-auto">
-        <div className=" px-3 flex flex-col justify-center  rounded-md scroll-auto md:w-8/12 lg:w-6/12 xl:w-4/12  pt-5 pb-5 ">
-          <h1 className=" w-96 text-lg font-bold semibold"></h1>
+        <div className=" px-3 w-full flex flex-col justify-center  rounded-md scroll-auto md:w-8/12 lg:w-6/12 xl:w-4/12  pt-5 pb-5 ">
+          <h1 className=" w-full text-lg font-bold semibold"></h1>
           <div className="flex items-center justify-center  w-full h-auto">
             <img src="/profile.png" alt="" width={140} height={140} />
           </div>

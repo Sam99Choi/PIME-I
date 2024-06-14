@@ -26,12 +26,12 @@ export default function Page() {
         </div>
       </header>
 
-      <div className=" flex flex-col justify-center items-center h-full w-auto md:items-center mx-5  ">
-        <div className="mb-10 px-2 flex flex-col items-center justify-center rounded-md sm:border-2 sm:shadow-lg /md:bg-gray-500 md:w-8/12 lg:w-6/12 xl:w-4/12 h-max pt-5 pb-5 ">
-          <h1 className="text-center w-96 /mt-10 text-lg font-bold semibold">
+      <div className=" flex flex-col justify-center items-center h-full w-auto md:items-center /mx-5  ">
+        <div className="mb-10 /px-2 w-full flex flex-col items-center justify-center rounded-md sm:border-2 sm:shadow-lg /md:bg-gray-500 md:w-8/12 lg:w-6/12 xl:w-4/12 h-max pt-5 pb-5 ">
+          <h1 className="text-center w-full 96 /mt-10 text-lg font-bold semibold">
             Escolha seu treino
           </h1>
-          <section className=" flex flex-col items-center w-full sm:w-auto px-3 sm:px-0 space-y-3 my-3 ">
+          <section className=" flex flex-col items-center w-full sm:w-auto px-5  sm:px-0 space-y-3 my-3 ">
             <Link className="w-full" href={"biceps"}>
               <button className="flex items-center justify-center w-full 80 auto [370px] sm:w-96 h-12 bg-slate-200 rounded-lg hover:bg-lime-400 slate-400 hover:text-white font-medium ">
                 {"Biceps"}
