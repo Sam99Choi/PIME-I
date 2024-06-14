@@ -12,7 +12,7 @@ export default function Perfil() {
           <div className="flex items-center justify-center  w-full h-auto">
             <img src="/profile.png" alt="" width={140} height={140} />
           </div>
-          <div className="flex flex-col items-start center space-y-2">
+          <div className="flex flex-col px-4 sm:px-0 items-start center space-y-2">
             <label className="font-medium" htmlFor="">Nome: </label>
             <input
               placeholder="User_47"

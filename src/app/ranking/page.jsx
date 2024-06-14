@@ -9,8 +9,8 @@ export default function Ranking() {
 
       <div className="static  md:mt-5 mx:mt-0 sm:pb-10 flex flex-col items-center justify-center w-auto">
         <div className="  mb-4 /sm:mb-3  px-3 flex flex-col justify-center rounded-md scroll-auto sm:border-2 sm:shadow-lg md:w-8/12 lg:w-6/12 xl:w-4/12  pt-5 pb-5 sm:pb-0 ">
-          <h1 className=" w-96 text-lg font-bold semibold">Ranking</h1>
-          <ol className="flex flex-col w-full  space-y-2 my-3   ">
+          <h1 className=" w-96 px-4 sm:px-0 text-lg font-bold semibold">Ranking</h1>
+          <ol className="flex flex-col w-full sm:px-0 px-4  space-y-2 my-3   ">
           <li className="flex items-center gap-3 p-2 bg-slate-300  rounded-md">
           <p className="text-xl font-bold">1º</p>
               <img
