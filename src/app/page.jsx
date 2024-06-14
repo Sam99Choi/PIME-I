@@ -8,7 +8,7 @@ import IconGroup from "@/Components/FooterComponents/IconGroup";
 import IconPodium from "@/Components/FooterComponents/IconPodium";
 import IconProfile from "@/Components/FooterComponents/IconProfile";
 import IconHome from "@/Components/FooterComponents/IconHome";
-
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -27,18 +27,46 @@ export default function Page() {
       </header>
 
       <div className="/bg-red-300 flex flex-col justify-center items-center h-full w-auto md:items-center mx-5  ">
-        <div className="mb-10 flex flex-col items-center justify-center rounded-md  md:bg-gray-500 md:w-8/12 lg:w-6/12 xl:w-4/12 h-max pt-5 pb-5 ">
+        <div className="mb-10 flex flex-col items-center justify-center rounded-md sm:border-2 sm:shadow-lg /md:bg-gray-500 md:w-8/12 lg:w-6/12 xl:w-4/12 h-max pt-5 pb-5 ">
           <h1 className="text-center w-96 /mt-10 text-lg font-bold semibold">
             Escolha seu treino
           </h1>
           <section className="  flex flex-col items-center space-y-3 my-3  ">
-            <Pages pagina={"Biceps"} url="biceps" />
-            <Pages pagina={"Peito"} url="peito" />
-            <Pages pagina={"Costas"} url="costas" />
-            <Pages pagina={"Triceps"} url="triceps" />
-            <Pages pagina={"Perna"} url="perna" />
-            <Pages pagina={"Ombro"} url="ombro" />
-            <Pages pagina={"Cardio"} url="cardio" />
+            <Link href={"biceps"}>
+              <button className="flex items-center justify-center w-[370px] sm:w-96 h-12 bg-slate-200 rounded-lg hover:bg-lime-400 slate-400 hover:text-white font-medium ">
+                {"Biceps"}
+              </button>
+            </Link>
+            <Link href={"peito"}>
+              <button className="flex items-center justify-center w-[370px] sm:w-96 h-12 bg-slate-200 rounded-lg hover:bg-lime-400 slate-400 hover:text-white font-medium ">
+                {"Peito"}
+              </button>
+            </Link>
+            <Link href={"costas"}>
+              <button className="flex items-center justify-center w-[370px] sm:w-96 h-12 bg-slate-200 rounded-lg hover:bg-lime-400 slate-400 hover:text-white font-medium ">
+                {"Costas"}
+              </button>
+            </Link>
+            <Link href={"triceps"}>
+              <button className="flex items-center justify-center w-[370px] sm:w-96 h-12 bg-slate-200 rounded-lg hover:bg-lime-400 slate-400 hover:text-white font-medium ">
+                {"Triceps"}
+              </button>
+            </Link>
+            <Link href={"perna"}>
+              <button className="flex items-center justify-center w-[370px] sm:w-96 h-12 bg-slate-200 rounded-lg hover:bg-lime-400 slate-400 hover:text-white font-medium ">
+                {"Perna"}
+              </button>
+            </Link>
+            <Link href={"ombro"}>
+              <button className="flex items-center justify-center w-[370px] sm:w-96 h-12 bg-slate-200 rounded-lg hover:bg-lime-400 slate-400 hover:text-white font-medium ">
+                {"Ombro"}
+              </button>
+            </Link>
+            <Link href={"cardio"}>
+              <button className="flex items-center justify-center w-[370px] sm:w-96 h-12 bg-slate-200 rounded-lg hover:bg-lime-400 slate-400 hover:text-white font-medium ">
+                {"Cardio"}
+              </button>
+            </Link>
           </section>
         </div>
       </div>
