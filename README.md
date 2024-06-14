@@ -1,3 +1,5 @@
+Projeto feito no primeiro semestre do Centro Universitário Belas Artes de São Paulo. Nesse projeto focamos em contruir uma aplicação que ajudasse jovens sedentários a se exercitarem sem sair de casa. A primeira entrega é somente um protótipo, posteriormente pretendemos adicionar funcionalidades e autenticar contas de usuários. 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
